@@ -262,15 +262,11 @@ footer{
 
 /* media query for tablet   started */
         
-        @media screen and (min-width: 669px) and (max-width: 992px) { 
-
-            .header-title p {
+@media screen  and (min-width: 669px) { 
+            
+            .header-main{
                 display: none;
             }
-           
-            .header-title .para-mobile{
-                display: block;
-                
-            }
+              
         }
 /* media query for tablet   ended */
