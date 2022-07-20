@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Roboto+Slab&family=Roboto:ital,wght@0,100;1,100&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Roboto', sans-serif;
+}
+/* -----------
+ header point started 
+---------------- */
+.header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  50px 0;
+}
+.header-point{
+    display: flex;
+    width:  80%;
+   border-radius: 20px;
+    background-color: black ;
+}
+.header-title {
+    width: 531px;
+    height: 424px;
+    margin-top: 70px;
+    margin-left:  50px;
+}
+.header-title h1 {
+     font-size:  4rem;
+     color: rgb(252, 252, 252);
+}
+.header-title p {
+    font-weight: 400;
+    margin:  20px 0;
+    font-size:  1.1em;
+    line-height: 1.1em;
+    color: rgb(199, 185, 185);
+    padding-bottom: 20px;
+}
+.header-title a {
+    text-decoration:  none;
+    background-color: #DD0000;
+    padding:  10px 15px;
+    color:  rgb(228, 220, 220);
+    border-radius: 5px;
+}
+.header-img img{
+        width: 500px;
+}
+/* -----------
+ header point ended
+---------------- */
