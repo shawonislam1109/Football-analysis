@@ -135,6 +135,7 @@ section part started
     margin: 10px 20px;
 }
 .news .blogs .comment p i{
+            color: gray;
             margin-right: 3px;
 }
 /* ---------
