@@ -110,6 +110,9 @@ section part started
     border-radius: 10px;
     background-color: rgb(238, 237, 237);
 }
+.view-all{
+    display: none;
+}
 .news .blogs img{
     width: 100%;
 }
@@ -162,10 +165,13 @@ footer{
     align-items: center;
     padding-bottom:  50px;
 }
+.extra-secore-line{
+    display: none;
+}
 .secore-line .div1{
     margin-left:  20px;
     color: white;
-    font-family: 'Edu NSW ACT Foundation', cursive;;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 .footer-icon i {
         visibility: hidden;
@@ -176,6 +182,8 @@ footer-ended
 
 
 /* media query for mobile  started*/
+
+
     @media only screen  and (max-width: 668px) {
 
         .header-point{
@@ -233,6 +241,9 @@ footer-ended
 .all-news{
     grid-template-columns: repeat(1,1fr);
 }
+.view-all{
+    display: none;
+}
 footer{
     width: 100%;
     margin-top:  100px;
@@ -256,17 +267,90 @@ footer{
     margin-left:  10px;
     margin-bottom: 20px;
 }
+.extra-secore-line{
+    display: none;
+}
+}
 /* media query for mobile  ended*/
 
 
 
 /* media query for tablet   started */
         
-@media screen  and (min-width: 669px) { 
-            
-            .header-main{
-                display: none;
-            }
-              
-        }
+@media only  screen and (min-width:669px) and (max-width: 992px) {
+
+ .header-title .laptop {
+     display: none;
+}
+.mobile-heading{
+    display: block;
+    color: white;
+    width: 100%;
+    padding-top: 50px ;
+}
+.header-title p {
+    display: none;
+}
+
+.header-title .para-mobile{
+    display: block;
+}
+.header-img img{
+    width: 400px;
+    margin-top: 75px;
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns:  100%;
+}
+.all-news{
+    grid-template-columns: repeat(2,1fr);
+}
+.heading-part{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+.heading-part div{
+    width:  60%;
+    margin: 0 20px;
+    height: 50px;
+    background-color: rgb(245, 242, 238);
+}
+#no-needed{
+    display: none;
+}
+.view-all{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 19px 0;
+    background-color: #DD0000;
+    width: 170px;
+    border-radius: 8px;
+}
+.view-all a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.extra-secore-line{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 250px;
+   margin: 0 auto;
+   font-family: 'Edu NSW ACT Foundation', cursive;
+   padding-bottom: 20px;
+}
+}
 /* media query for tablet   ended */
