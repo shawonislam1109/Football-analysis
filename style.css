@@ -241,6 +241,7 @@ footer{
 .secore-line{
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 .secore-line .div1{
     margin-bottom: 20px;
@@ -252,5 +253,6 @@ footer{
     visibility: visible;
     color: white;
     margin-left:  10px;
+    margin-bottom: 20px;
 }
 /* media query for mobile  ended*/
